@@ -1,3 +1,13 @@
+# =============================================================================
+# ASTEROIDS - Main Entry Point
+# =============================================================================
+# This file is the heart of the game. It sets up the pygame window, creates
+# the player and asteroid field, then runs the main game loop. Each frame the
+# loop: handles quit events, clears the screen, updates all objects, checks
+# for collisions, draws everything, and caps the game at 60 FPS.
+# Run this file directly to start the game.
+# =============================================================================
+
 import sys
 import pygame
 # Import screen size constants so we can set up the window
